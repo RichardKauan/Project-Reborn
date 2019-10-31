@@ -1,2 +1,131 @@
-/**/
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+}
 
+body{
+  background: black;
+  text-align: center;
+  color: white;
+}
+
+h1{
+  color: White;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+input[type = "text"]{
+  width: 100%;
+  margin-top: 6%;
+  color: white;
+}
+
+
+ input[type = "text"]{
+  border: none;
+  background: none;
+  border-bottom: 1px solid white;
+  transition: .3s;
+  color: white;
+  width: 60%;
+}
+
+input[type = "time"]{
+  margin-top: 6%;
+  color: white;
+}
+
+ input[type = "time"]{
+  border: none;
+  background: none;
+  border-bottom: 1px solid white;
+  transition: .3s;
+  color: white;
+}
+
+
+.botoes-registra{
+  text-align: center;
+  margin-top: 5%;
+}
+
+button{
+  background: none;
+  border: 2px solid white;
+  padding: 10px 30px;
+  color: white;
+  text-transform: uppercase;
+  transition: .3s;
+}
+
+button{
+  background: none;
+  border: 2px solid white;
+  padding: 10px 30px;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 5%;
+  transition: .3s;
+}
+
+button:focus{
+  background: white;
+  color: black;
+}
+
+button:focus{
+  background: white;
+  color: black;
+}
+
+input[type = "text"]:focus{
+  background: white;
+  color: black;
+  transition-delay: .3s;
+  width: 70%;
+  border-bottom: 2px solid black; 
+  padding: 10px;
+}
+
+#selecionar{
+  color: white;
+}
+
+#selecionar{
+  margin-top: 5%;
+  border: none;
+  background: none;
+  border-bottom: 1px solid white;
+  transition: .3s;
+  color: white;
+}
+
+#selecionar selected{
+  transition: .3s;
+}
+
+option{
+  color: black;
+  transition: .3s;
+}
+
+button:focus,
+textarea:focus,
+input:focus,
+select:focus {
+border-color: none !important;
+outline: 0;
+-webkit-box-shadow: none !important;
+box-shadow: none !important;
+}
+
+input[type = "text"]:focus::-webkit-input-placeholder{
+  color: black;
+  transition-delay: .3s;
+}
+
+::-webkit-input-placeholder{
+  color: white;
+}
