@@ -5,27 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
   <script src="components/loader.js"></script>
-  <script src="lib/onsenui/js/onsenui.min.js"></script>
+  <script src="https://kit.fontawesome.com/020bf3c159.js" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="components/loader.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <h1>Registre seu carro aqui!</h1>
+  <br>
   <div class="registrar-info">
     <h1>Horário de entrada do veículo</h1><input type="time">
     <br>
-    <h1>Nome do proprietário:</h1><input type="text">
+    <div id="nome">
+      <i class="fas fa-user-tie"></i>
+      <input type="text" placeholder="Nome do Proprietário:">
+    </div>
     <br>
-    <h1>Marca:</h1><input type="text">
+    <div id="marca">
+      <i class="far fa-registered"></i>
+      <input type="text" placeholder="Marca do Veículo:">
+    </div>
     <br>
-    <h1>Modelo:</h1><input type="text">
+    <div id="modelo">
+      <i class="fas fa-car"></i>
+      <input type="text" placeholder="Modelo do Veículo:">
+    </div>
     <br>
-    <h1>Tipo de veículo:</h1><select name="" id="">
+    <select name="" id="selecionar">
       <option value="" disabled selected>Escolha o tipo do veiculo</option>
-      <option value="1">Carro</option>
-      <option value="2">Moto</option>
-      <option value="3">Caminhão</option>
+      <option value="carro">Carro</option>
+      <option value="moto">Moto</option>
     </select>
     
   </div>
